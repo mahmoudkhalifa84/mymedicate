@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.main_screen.settings.ChangeCountry">
+
+    <TextView
+        android:id="@+id/set_lan_ok2"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:text="@string/ok"
+        android:textColor="@color/white"
+        android:background="@drawable/but_s"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/change_contry"
+        android:textColor="@color/main"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/set_lan_ok2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:id="@+id/id_libya"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginBottom="3dp"
+
+                        android:background="?attr/selectableItemBackground"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="35dp"
+
+                            android:layout_margin="2sp"
+                            android:src="@drawable/flag_libya_new" />
+
+                        <TextView
+
+                            android:id="@+id/sl_libya"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+
+
+                            android:layout_marginStart="8dp"
+                            android:layout_marginEnd="12dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:text="@string/con_libya"
+                            android:textAlignment="viewStart"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+
+                    <View
+
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="65dp"
+                        android:background="@color/gray" />
+
+                    <LinearLayout
+                        android:id="@+id/id_egy"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+
+
+                        android:background="?attr/selectableItemBackground"
+                        android:orientation="horizontal">
+
+                        <ImageView
+
+                            android:layout_width="60dp"
+                            android:layout_height="35dp"
+
+                            android:layout_margin="2sp"
+                            android:src="@drawable/flag_egy_new" />
+
+                        <TextView
+
+                            android:id="@+id/sl_egy"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+
+                            android:layout_marginStart="8dp"
+
+                            android:layout_marginEnd="12dp"
+                            android:layout_weight="1"
+                            android:text="@string/con_egy"
+                            android:textAlignment="viewStart"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <View
+
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="65dp"
+                        android:background="@color/gray" />
+
+                    <LinearLayout
+                        android:id="@+id/id_tinis"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+
+
+                        android:background="?attr/selectableItemBackground"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="35dp"
+
+                            android:layout_margin="2sp"
+                            android:src="@drawable/flag_tunis" />
+
+                        <TextView
+
+                            android:id="@+id/sl_tunis"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+
+                            android:layout_marginStart="8dp"
+
+                            android:layout_marginEnd="12dp"
+                            android:layout_weight="1"
+                            android:text="@string/con_tu"
+                            android:textAlignment="viewStart"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <View
+
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="65dp"
+                        android:background="@color/gray" />
+
+                    <LinearLayout
+                        android:id="@+id/id_aljaza"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+
+
+                        android:background="?attr/selectableItemBackground"
+                        android:orientation="horizontal">
+
+                        <ImageView
+
+                            android:layout_width="60dp"
+                            android:layout_height="35dp"
+
+                            android:layout_margin="2sp"
+                            android:src="@drawable/flag_aljaz" />
+
+                        <TextView
+
+                            android:id="@+id/sl_aljaz"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+
+                            android:layout_marginStart="8dp"
+
+                            android:layout_marginEnd="12dp"
+                            android:layout_weight="1"
+                            android:text="@string/con_j"
+                            android:textAlignment="viewStart"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <View
+
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="65dp"
+                        android:background="@color/gray" />
+
+                    <LinearLayout
+                        android:id="@+id/id_ispanya"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+
+
+                        android:background="?attr/selectableItemBackground"
+                        android:orientation="horizontal">
+
+                        <ImageView
+
+                            android:layout_width="60dp"
+                            android:layout_height="35dp"
+
+                            android:layout_margin="2sp"
+                            android:src="@drawable/flag_espan_2" />
+
+                        <TextView
+
+                            android:id="@+id/sl_espain"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+
+                            android:layout_marginStart="8dp"
+
+                            android:layout_marginEnd="12dp"
+                            android:layout_weight="1"
+                            android:text="@string/con_espany"
+                            android:textAlignment="viewStart"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <View
+
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="65dp"
+                        android:background="@color/gray" />
+
+                    <LinearLayout
+                        android:id="@+id/id_garmny"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+
+                        android:background="?attr/selectableItemBackground"
+                        android:orientation="horizontal">
+
+                        <ImageView
+
+                            android:layout_width="60dp"
+                            android:layout_height="35dp"
+
+                            android:layout_margin="2sp"
+                            android:src="@drawable/flag_germany_2" />
+
+                        <TextView
+
+                            android:id="@+id/sl_germany"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+
+                            android:layout_marginStart="8dp"
+
+                            android:layout_marginEnd="12dp"
+                            android:layout_weight="1"
+                            android:text="@string/con_germany"
+                            android:textAlignment="viewStart"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <View
+
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="65dp"
+                        android:background="@color/gray" />
+
+                    <LinearLayout
+                        android:id="@+id/id_italy"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+
+                        android:background="?attr/selectableItemBackground"
+                        android:orientation="horizontal">
+
+                        <ImageView
+
+                            android:layout_width="60dp"
+                            android:layout_height="35dp"
+
+                            android:layout_margin="2sp"
+                            android:src="@drawable/flag_italy_2" />
+
+                        <TextView
+
+                            android:id="@+id/sl_italy"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+
+                            android:layout_marginStart="8dp"
+
+                            android:layout_marginEnd="12dp"
+                            android:layout_weight="1"
+                            android:text="@string/con_italy"
+                            android:textAlignment="viewStart"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <View
+
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="65dp"
+                        android:background="@color/gray" />
+
+                    <LinearLayout
+                        android:id="@+id/id_ukranya"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_margin="3dp"
+
+                        android:background="?attr/selectableItemBackground"
+                        android:orientation="horizontal">
+
+                        <ImageView
+
+                            android:layout_width="60dp"
+                            android:layout_height="35dp"
+
+                            android:layout_margin="2sp"
+                            android:src="@drawable/flag_ukran_2" />
+
+                        <TextView
+
+                            android:id="@+id/sl_ukranya"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+
+                            android:layout_marginStart="8dp"
+
+                            android:layout_marginEnd="12dp"
+                            android:layout_weight="1"
+                            android:text="@string/ukran"
+                            android:textAlignment="viewStart"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <View
+
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="65dp"
+                        android:background="@color/gray" />
+
+                    <LinearLayout
+                        android:id="@+id/id_turky"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginBottom="7dp"
+
+                        android:background="?attr/selectableItemBackground"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="35dp"
+                            android:layout_margin="2sp"
+                            android:src="@drawable/flag_turk_2" />
+
+                        <TextView
+
+                            android:id="@+id/sl_turkia"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+
+                            android:layout_marginStart="8dp"
+
+                            android:layout_marginEnd="12dp"
+                            android:layout_weight="1"
+                            android:text="@string/con_turkia"
+                            android:textAlignment="viewStart"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <View
+
+                        android:id="@+id/view20"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginStart="65dp"
+                        android:background="@color/gray" />
+                </LinearLayout>
+            </ScrollView>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

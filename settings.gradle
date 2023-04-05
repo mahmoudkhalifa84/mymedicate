@@ -1,0 +1,8 @@
+include ':app'
+rootProject.name='Medicate'
+dependencyResolutionManagement {
+    repositories {
+
+        maven { url 'https://jitpack.io' }
+    }
+}

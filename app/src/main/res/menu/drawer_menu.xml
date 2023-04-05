@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_main_menu"
+            android:checked="true"
+            android:icon="@drawable/logo_m"
+            android:title="@string/main_ui" />
+        <item
+            android:id="@+id/nav_myaccount"
+            android:icon="@drawable/ic_money"
+            android:title="@string/my_account"
+            android:visible="true" />
+
+        <item
+            android:id="@+id/nav_my_card_info"
+            android:icon="@drawable/card"
+            android:title="@string/show_card_info"
+            android:visible="false"
+            />
+        <item
+            android:id="@+id/nav_user_info"
+            android:icon="@drawable/slider_qr"
+            android:title="@string/qr_code"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_request_card"
+            android:title="@string/card_requst"
+            android:icon="@drawable/card"
+            android:visible="false"/>
+
+        <item android:id="@+id/nav_offers"
+            android:icon="@drawable/nav_offers"
+            android:title="@string/deels"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_nav_logout"
+            android:title="@string/logout"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_nav_login"
+            android:title="@string/login"
+            android:visible="false" />
+    </group>
+    <group android:checkableBehavior="none">
+
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/settings"
+                android:title="@string/action_settings" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/nav_share"
+                android:title="@string/shere" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/repr_prp"
+                android:visible="false"
+                android:title="@string/rep_feedback" />
+            <item
+                android:id="@+id/nav_about"
+android:icon="@drawable/nav_about"
+                android:visible="true"
+                android:title="@string/about" />
+    </group>
+</menu>

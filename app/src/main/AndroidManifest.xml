@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.medicate_int.mymedicate">
+    <!-- by finishing this application you will be able to use stackoverflow Dear Shsho -->
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+             <uses-permission android:name="android.permission.CAMERA" /> todo
+    -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="false"
+        android:fullBackupOnly="false"
+        android:icon="@mipmap/new_medicate_logo"
+        android:isGame="false"
+        android:label="@string/app_name"
+        android:launchMode="singleTop"
+        android:logo="@mipmap/new_medicate_logo"
+        android:roundIcon="@mipmap/new_medicate_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:requestLegacyExternalStorage="true"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ui.main_screen.booking.booking_doctor.ViewDoctorAppointments"/>
+        <activity android:name=".ui.main_screen.user_profile.medical_files.AddMedicalFile" />
+        <activity android:name=".ui.main_screen.ask_doctor.ChatWithMedicateDoctor" />
+        <activity android:name=".ui.main_screen.support_services.WebViewActivity" />
+
+        <service
+            android:name=".services.FirebaseMessageHandler"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".services.NotificationsService"
+            android:enabled="true"
+            android:exported="false" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="44235195" />
+
+        <activity
+            android:name=".ui.MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".ui.QrScan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.Slider"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.QrLoginScan"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity
+            android:name=".ui.SplashScreen"
+            android:exported="true"
+
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

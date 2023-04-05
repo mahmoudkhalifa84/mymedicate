@@ -1,0 +1,147 @@
+{
+  "project_info": {
+    "project_number": "416598269472",
+    "firebase_url": "https://medicate-int.firebaseio.com",
+    "project_id": "medicate-int",
+    "storage_bucket": "medicate-int.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416598269472:android:3e31ef791e6c874bf86645",
+        "android_client_info": {
+          "package_name": "com.medicate.medicatemanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416598269472-95ajevgrie0qebrj5tkv274bcghrk0hp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIbF-ZO97JY8fByN_WKo0STFy_crN0oTs"
+        },
+        {
+          "current_key": "AIzaSyCv_cpSk2eEPN4JIHxDbKWE2Mtb4kmIfgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416598269472-95ajevgrie0qebrj5tkv274bcghrk0hp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416598269472:android:79bdb62e3e0047b5f86645",
+        "android_client_info": {
+          "package_name": "com.medicate_int.medicateadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416598269472-95ajevgrie0qebrj5tkv274bcghrk0hp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIbF-ZO97JY8fByN_WKo0STFy_crN0oTs"
+        },
+        {
+          "current_key": "AIzaSyCv_cpSk2eEPN4JIHxDbKWE2Mtb4kmIfgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416598269472-95ajevgrie0qebrj5tkv274bcghrk0hp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416598269472:android:afb4793c4c579aa7f86645",
+        "android_client_info": {
+          "package_name": "com.medicate_int.medicateschool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416598269472-95ajevgrie0qebrj5tkv274bcghrk0hp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIbF-ZO97JY8fByN_WKo0STFy_crN0oTs"
+        },
+        {
+          "current_key": "AIzaSyCv_cpSk2eEPN4JIHxDbKWE2Mtb4kmIfgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416598269472-95ajevgrie0qebrj5tkv274bcghrk0hp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416598269472:android:155260c4fc492d40f86645",
+        "android_client_info": {
+          "package_name": "com.medicate_int.mymedicate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416598269472-cn7u7diqr75c5ckkm9dk5a1as7ksrveh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.medicate_int.mymedicate",
+            "certificate_hash": "5f92a36c6d1f791f9bc12264e49e5d2122613109"
+          }
+        },
+        {
+          "client_id": "416598269472-95ajevgrie0qebrj5tkv274bcghrk0hp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIbF-ZO97JY8fByN_WKo0STFy_crN0oTs"
+        },
+        {
+          "current_key": "AIzaSyCv_cpSk2eEPN4JIHxDbKWE2Mtb4kmIfgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416598269472-95ajevgrie0qebrj5tkv274bcghrk0hp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

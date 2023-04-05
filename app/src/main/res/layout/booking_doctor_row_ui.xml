@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bok_ly"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:elevation="2dp"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bok"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/selectableItemBackgroundBorderless">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/bok_img"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/bok_user"
+            app:civ_border_color="@color/gray"
+            app:civ_border_width="0.5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/bok_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textColor="@color/main"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline2"
+            app:layout_constraintStart_toEndOf="@+id/bok_img"
+            app:layout_constraintTop_toTopOf="@+id/bok_img"
+            tools:text="د. هشام محمد" />
+
+        <TextView
+            android:id="@+id/bok_name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginEnd="4dp"
+            android:text="@string/waiting_time"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline2"
+            app:layout_constraintEnd_toStartOf="@+id/bok_time"
+            tools:text="زمن الانتظار" />
+
+        <TextView
+            android:id="@+id/bok_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+
+            android:text="@string/waiting_time"
+            android:textColor="@color/main"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/bok_name2"
+            tools:text="12 دقيقة" />
+
+        <TextView
+            android:id="@+id/bok_sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/bok_img"
+            app:layout_constraintStart_toStartOf="@+id/bok_name"
+            app:layout_constraintTop_toTopOf="@+id/guideline2"
+            tools:text="دراحة الاعصاب" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="50dp" />
+
+        <TextView
+            android:id="@+id/bok_degree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray"
+            app:layout_constraintBottom_toBottomOf="@+id/bok_sp"
+            app:layout_constraintStart_toEndOf="@+id/bok_sp"
+            app:layout_constraintTop_toTopOf="@+id/bok_sp"
+            tools:text=" - ماجستير" />
+
+        <ImageView
+            android:id="@+id/bok_view"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="4dp"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline2"
+            app:srcCompat="@drawable/bok_view" />
+
+        <ImageView
+            android:id="@+id/bok_bok"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="4dp"
+            app:layout_constraintEnd_toStartOf="@+id/bok_view"
+            app:layout_constraintTop_toTopOf="@+id/guideline2"
+            app:srcCompat="@drawable/bok_bok_blue" />
+
+        <View
+            android:id="@+id/view23"
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dp"
+            android:background="@color/main"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

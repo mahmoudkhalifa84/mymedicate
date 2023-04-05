@@ -1,0 +1,715 @@
+<resources>
+    <string name="month_prompt">الشهر</string>
+    <string name="day_prompt">اليوم</string>
+    <string name="country_prompt">الدولة</string>
+    <string name="city_prompt">المدينة</string>
+    <string-array name="month_arrays">
+        <item>يناير</item>
+        <item>فبراير</item>
+        <item>مارس</item>
+        <item>أبريل</item>
+        <item>مايو</item>
+        <item>يونيو</item>
+        <item>يوليو</item>
+        <item>اغسطس</item>
+        <item>سبتمبر</item>
+        <item>أكتوبر</item>
+        <item>نوفمبر</item>
+        <item>ديسمبر</item>
+    </string-array>
+    <string name="fcm_token">FCM Token: %s</string>
+    <string-array name="day_arrays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string-array name="pro_type">
+        <item>نوع المشكلة</item>
+        <item>مشكلة في التطبيق</item>
+        <item>مشكلة في بياناتي الشخصية</item>
+        <item>أخرى</item>
+    </string-array>
+    <string-array name="pro_type_main">
+        <item>نوع المشكلة</item>
+        <item>مشكلة في عملية طلب بطاقة</item>
+        <item>مشكلة في المطالبات</item>
+        <item>التبليغ عن مصحة أو صيدلية مخالفة</item>
+        <item>أخرى</item>
+    </string-array>
+    <string name="ask_doc_sp">أطباء متخصصون</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_login_username">رقم البطاقة</string>
+    <string name="hint_login_password">كلمة المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="Hello">مرحبا بك</string>
+    <string name="how_can_we_help_you">كيف يمكننا مساعدتك</string>
+    <string name="claims">المطالبات</string>
+    <string name="login_phone">الرجاء إدخال رقم هاتفك الشخصي</string>
+    <string name="deels">العروض</string>
+    <string name="Notification">الإشعارات</string>
+    <string name="Providers_Network">شبكة مزودي الخدمة</string>
+    <string name="More">المزيد</string>
+    <string name="my_account">حسابي</string>
+    <string name="cheack_int_con">خطأ في الشبكة , الرجاء التأكد من أتصالك بالأنترنت</string>
+    <string name="request_e_card">طلب بطاقة</string>
+    <string name="main_ui">الواجهة الرئيسية</string>
+    <string name="show_card_info">معلومات البطاقة</string>
+    <string name="user_info">معلومات المستفيد</string>
+    <string name="card_requst">طلب بطاقة</string>
+    <string name="rep_feedback">التبليغ عن مشكلة</string>
+    <string name="about">حول</string>
+    <string name="shere">مشاركة</string>
+    <string name="next">أستمرار</string>
+    <string name="search">البحث</string>
+    <string name="Loading">جاري التحميل</string>
+    <string name="f_name">الاسم</string>
+    <string name="s_name">اسم الاب</string>
+    <string name="t_name">اسم الجد</string>
+    <string name="n_name">اللقب</string>
+    <string name="d_o_p">تاريخ الميلاد</string>
+    <string name="cYear">السنة</string>
+    <string name="nat_SS">الرقم الوطني</string>
+    <string name="women">أنثى</string>
+    <string name="men">ذكر</string>
+    <string name="Address">العنوان</string>
+    <string name="e_mail">البريد الالكتروني</string>
+    <string name="phone_num">رقم الهاتف</string>
+    <string name="cancel">إلغاء الأمر</string>
+    <string name="pass_or_name_error">خطأ في رقم البطاقة أو كلمة المرور</string>
+    <string name="login_suc">تم تسجيل الدخول بنجاح</string>
+    <string name="card_type">نوع البطاقة</string>
+    <string name="mad_insh">بطاقة تأمين</string>
+    <string name="mad_fam">MyMedicate</string>
+    <string name="mad_school">Medicate School</string>
+    <string name="title_activity_temp">temp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">الإعدادات</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="start">البدء</string>
+    <string name="inter_all_data">الرجاء تعبئة جميع البيانات</string>
+    <string name="ch_balance">كشف حساب</string>
+    <string name="balance">الأستعلام عن الرصيد</string>
+    <string name="lan">تغيير اللغة</string>
+    <string name="alert">التنبيهات</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="skip">تخطي</string>
+    <string name="ent_valied_code">أدخل رمز التحقق</string>
+    <string name="v_code_sent">تم إرسال رمز التحقق إليك</string>
+    <string name="hospital">المصحات</string>
+    <string name="c_c_c">مراكز العلاج الطبيعي والجيم</string>
+    <string name="laps">المختبرات ومراكز التشخيص</string>
+    <string name="amb">سيارة إسعاف</string>
+    <string name="home_h_c">الاسنان</string>
+    <string name="phar">الصيدليات</string>
+    <string name="ser_type">نوع الخدمة</string>
+    <string name="con_libya">ليبيا</string>
+    <string name="con_egy">مصر</string>
+    <string name="con_tu">تونس</string>
+    <string name="con_j">الجزائر</string>
+    <string name="you_need_t_inter_num">يجب عليك إدخال رقم هاتفك للمتابعة</string>
+    <string name="egy">مصر</string>
+    <string name="con_espany">أسبانيا</string>
+    <string name="con_germany">ألمانيا</string>
+    <string name="con_italy">إيطاليا</string>
+    <string name="ukran">أوكرانيا</string>
+    <string name="con_turkia">تركيا</string>
+    <string name="qr_code">QR كود</string>
+    <string name="me_card">البطاقة</string>
+    <string name="ser_doctorBook">إحجز موعد كشف طبيب</string>
+    <string name="ser_sergion">إحجز موعد خدمة أو عملية</string>
+    <string name="ser_order_mid">أطلب أدوية</string>
+    <string name="ser_doc_tohome">إحجز موعد لزيارة منزلية مع طبيب</string>
+    <string name="contect_us">التواصل معنا</string>
+    <string name="not_av_yet">عذراً , هذه الخدمة ليست متوفرة حالياً</string>
+    <string name="our_ser">خدماتنا</string>
+    <string name="ask_doc">إسأل طبيب</string>
+    <string name="min_chat">محادثة فورية</string>
+    <string name="chose_contry">أختر الدولة</string>
+    <string name="subject">الموضوع</string>
+    <string name="email_text">محتوى الرسالة</string>
+    <string name="add_file">إضافة صورة</string>
+    <string name="send">إرسال</string>
+    <string name="or">--------------- أو ---------------</string>
+    <string name="chat_call">أتصال</string>
+    <string name="whatsapp">واتساب</string>
+    <string name="viber">فايبر</string>
+    <string name="app_photo_done">تم إضافة صورة</string>
+    <string name="error_add_phto">لم يتم أخيار الصورة بنجاح</string>
+    <string name="booking_min">حجز مواعيد</string>
+    <string name="doc_by_name">البحث باسم الطبيب</string>
+    <string name="doc_by_loc">البحث حسب التخصص والمنطقة</string>
+    <string name="no_internet_con">الرجاء التأكد من أتصالك بالأنترنت</string>
+    <string name="try_agin">إعادة المحاولة</string>
+    <string name="aggree">يجب الموافقة على الاذونات للمتابعة</string>
+    <string name="Providers_Network_2">الشبكة الطبية</string>
+    <string name="plz_sho_lo_type">الرجاء أختيار نوع البطاقة</string>
+    <string name="search_doc">البحث بأسم الطبيب</string>
+    <string name="noDocWithThisName">عذراً لا يوجد طبيب بهذا الأسم</string>
+    <string name="doc_sp">البحث في التخصصات</string>
+    <string name="sp_1">اسنان</string>
+    <string name="sp_2">العيون</string>
+    <string name="sp_3">جلدية</string>
+    <string name="sp_4">جراحية تجميلية</string>
+    <string name="sp_5">جراحة عامة</string>
+    <string name="sp_6">عظام</string>
+    <string name="sp_7">مخ وأعصاب</string>
+    <string name="sp_8">نساء وتوليد</string>
+    <string name="sp_9">انف وأذن وحنجرة</string>
+    <string name="sp_10">علاج طبيعي</string>
+    <string name="sp_11">أطفال وحديثي الولادة</string>
+    <string name="sp_12">نطق وتخاطب</string>
+    <string name="sp_13">سمعيات</string>
+    <string name="sp_14">ذكورة وعقم</string>
+    <string name="sp_15">طب نفسي</string>
+    <string name="sp_16">قلب وأوعية دموية</string>
+    <string name="sp_17">اورام</string>
+    <string name="sp_18">باطنة</string>
+    <string name="sp_20">امراض الدم</string>
+    <string name="sp_21">تخسيس وتغذية</string>
+    <string name="sp_22">جراحة اطفال</string>
+    <string name="sp_23">جراحة اورام</string>
+    <string name="sp_24">جراحة اوعية دموية</string>
+    <string name="sp_26">جراحة سمنة ومناظير</string>
+    <string name="sp_27">جراحة عمود الفقري</string>
+    <string name="sp_28">جراحة قلب وصدر</string>
+    <string name="sp_29">جهاز هظمي ومناظير</string>
+    <string name="sp_30">حساسية ومناعة</string>
+    <string name="sp_31">حقن مجهري واطفال انابيب</string>
+    <string name="sp_32">روماتيزم</string>
+    <string name="sp_33">سكروغدد صماء</string>
+    <string name="sp_34">صدر وجهاز تنفسي</string>
+    <string name="sp_35">طب الأسرة</string>
+    <string name="sp_36">طب المسنين</string>
+    <string name="sp_37">طب تقويمي</string>
+    <string name="sp_38">علاج الآلام</string>
+    <string name="sp_39">علاج طبيعي واصابات ملاعب</string>
+    <string name="sp_40">كبد</string>
+    <string name="sp_41">كلى</string>
+    <string name="sp_42">مراكز أشعة</string>
+    <string name="sp_43"> زراعة الاعضاء</string>
+    <string name="sp_44">معامل تحاليل</string>
+    <string name="sp_45">مراكز أشعة</string>
+    -------------------------------------------
+    <string name="sp_46">أستعمال الليزر والضوء المكثف</string>
+    <string name="sp_47">جراحة الشبكية</string>
+    <string name="sp_48">صحة الأم والطفل</string>
+    <string name="sp_49">الطب التلطيفي</string>
+    <string name="sp_50">الوبائيات الحلقية</string>
+    <string name="sp_51">جراحة الجلد</string>
+    <string name="sp_52">طب الإدمان</string>
+    <string name="sp_53">الأنفصام</string>
+    <string name="sp_54">تخدير موضعي</string>
+    <string name="sp_55">تخدير نساء وتوليد</string>
+    <string name="sp_56">تخدير أسعاف</string>
+    <string name="sp_57">الطب النووي</string>
+    <string name="sp_58">أشعة الأعصاب التداخلية</string>
+    <string name="sp_59">باثولوجيا الأمراض</string>
+    <string name="sp_60">الأحياء الدقيقة</string>
+    <string name="sp_61">العلاج بالإبر الصينية</string>
+    <string name="sp_62">الصيدلة</string>
+    <string name="sp_63">جراحة القولون والمستقيم</string>
+    <string name="sp_64">جراحة مناظير</string>
+    <string name="sp_65">مسالك بولية</string>
+    <string name="sp_66">أشعة الأعصاب التشخيصية</string>
+    <string name="sp_67">قلب  (اطفال)</string>
+    <string name="sp_68">جراحة قلب صناعي</string>
+    <string name="sp_69">أمراض الدم أطفال</string>
+    <string name="sp_70">الجهاز العضمي والكبد</string>
+    <string name="sp_71">جراحة مناظير نسائية</string>
+    <string name="sp_72">طب المهني والصناعي</string>
+    <string name="sp_73">العلاج السلوكي للتوحد</string>
+    <string name="sp_74">جراحة لإذن وزراعة القوقعة</string>
+    <string name="sp_75">الماء الأزرق</string>
+    <string name="sp_76">أمراض وزراعة الشعر</string>
+    <string name="sp_77">طؤارئ سموم</string>
+    <string name="sp_78">طؤارى أصابات</string>
+    <string name="sp_79">جراحة الرأس</string>
+    <string name="sp_80">العناعية المركز أطفال</string>
+    <string name="sp_81">طب أطفال</string>
+    <string name="sp_82">جراحة السمنة</string>
+    <string name="sp_83">جراحة القلب</string>
+    <string name="sp_84">أمراض القلب</string>
+    <string name="sp_85">صدرية وأضطرابات النوم</string>
+    <string name="sp_86">طب الطؤارى</string>
+    <string name="sp_87">تغذية</string>
+    <string name="sp_88">روماتيزم (كبار)</string>
+    <string name="sp_89">تخدير</string>
+    <string name="sp_90">أمراض الكلى (كبار)</string>
+    <string name="sp_91">أمراض معدية</string>
+    <string name="sp_92">صحة الفم والأسنان</string>
+    <string name="sp_93">مدير العمليات</string>
+    <string name="sp_94">الإقلاع عن التدخين</string>
+    <string name="sp_95">جراحة صدر أطفال</string>
+    <string name="sp_96">جراحة الاصابات</string>
+    <string name="sp_97">طب الكوارث</string>
+    <string name="sp_98">مسالك بولية أطفال</string>
+    <string name="sp_99">الاستعاضة السنية</string>
+    <string name="sp_100">تخدير القلب</string>
+    <string name="sp_101">جراحة اليد</string>
+    <string name="sp_102">طب عيون الاطفال والحول</string>
+
+    <string name="noDocWithThisSp">عذراً , لا يوجد طبيب في هذا التخصص</string>
+    <string name="durg_name">اسم الدواء المطلوب</string>
+    <string name="noDrugThisName">عذراً , لا يوجد دواء بهذا الأسم</string>
+    <string name="going_account">الحساب الجاري</string>
+    <string name="int_card">البطاقة الدولية</string>
+    <string name="motalpat_rep">تقارير المطالبات</string>
+    <string name="sp_19">طبيب عام</string>
+    <string name="view_det">عرض التفاصيل</string>
+    <string name="go_to_lo">الموقع</string>
+    <string name="ok">موافق</string>
+    <string name="home_intro_top">
+        "احجز زيارة منزلية\n"
+        " من خلال شركة ميديكيت يمكنك\n"
+        "حجز زيارة منزلية مع طبيب متخصص"
+    </string>
+    <string name="sph">تخصص الطبيب</string>
+    <string name="basic_info">المعلومات الاساسية</string>
+    <string name="bash_info">معلومات المريض</string>
+    <string name="age">العمر</string>
+    <string name="notis">برجاء العلم :</string>
+    <string name="pers_rec">السجل الطبي</string>
+    <string name="prof_app">مواعيدي الطبية</string>
+    <string name="medi_files">ملفاتي الطبية</string>
+    <string name="ask_doc_user">أستشراتي الصحية</string>
+    <string name="user_prof">الملف الطبي</string>
+    <string name="hlth_life">الحياة الصحية</string>
+    <string name="free_q">أسئلتي المجانية</string>
+    <string name="sub_info">معلومات الاشتراك</string>
+    <string name="gender">الجنس</string>
+    <string name="doc_sp_cl">تخصص الطبيب</string>
+    <string name="place">المنطقة</string>
+
+    <string name="edit_prof_info">معلومات الملف الشخصي</string>
+    <string name="other">أخرى</string>
+    <string name="language">تغيير اللغة</string>
+    <string name="change_contry">تغيير البلد</string>
+    <string name="tech_support">الدعم الفني</string>
+    <string name="rep_prp">التبيلغ عن مشكلة</string>
+    <string name="send_fed">أرسال أقتراح</string>
+    <string name="rate_app">تقييم التطبيق</string>
+    <string name="version">الاصدار : 1.7</string>
+    <string name="no_loac">عذراً , بيانات الموقع غير متوفرة</string>
+    <string name="login_to_contune">الرجاء تسجيل الدخول للمتابعة</string>
+    <string name="card_order_seucssaf">تم طلب البطاقة بنجاح</string>
+    <string name="uknown_error">حدث خطأ !</string>
+    <string name="personal_info">المعلومات الشخصية</string>
+    <string name="user_pic">الصورة الشخصية</string>
+    <string name="sex">الجنس</string>
+    <string name="contry">الدولة</string>
+    <string name="evry_city">جميع المدن</string>
+    <string name="all_contrys">جميع المدن</string>
+    <string name="login_to_countune">يجب تسجيل الدخول للمتابعة</string>
+    <string-array name="languages">
+        <item>العربية</item>
+        <item>English</item>
+        <item>Français</item>
+    </string-array>
+    <string name="country_change">تغيير الدولة</string>
+    <string name="county_libya">ليبيا</string>
+    <string name="county_tunis">تونس</string>
+    <string name="county_egy">مصر</string>
+    <string name="county_aljaz">الجزائر</string>
+    <string name="county_espain">أسبانيا</string>
+    <string name="county_gaemny">ألمانيا</string>
+    <string name="county_italya">إيطاليا</string>
+    <string name="county_ukranya">أوكرانيا</string>
+    <string name="county_turkia">تركيا</string>
+    <string name="serach_for_drug_text">أطلب دوائك وكل أحتياجاتك من الصيدلية</string>
+    <string name="serach_for_your_requst">أبحث عن طلبك</string>
+    <string name="counect_with_pharmiss">تواصل مع \nصيدلي</string>
+    <string name="order_by_rwshita">اطلب بالوصفة الطبية</string>
+    <string name="order_by_prodic_photo">اطلب بواسطة صورة المنتج</string>
+    <string name="delevry_service">أماكن توافر خدمة التوصيل</string>
+    <string name="delevry_places">طرابلس - الزاوية - صبراتة - مصراتة - سبها - تمنهنت \n غات -الكفرة - بنغازي - أجدابيا - طبرق </string>
+    <string name="all_right_saved">جميع الحقوق محفوظة لشركة Medicate®</string>
+    <string name="aqterah">نحن نرحب بجميع أقتراحات عملائنا</string>
+    <string name="feed_back_hint">أكتب أقتراحك هنا</string>
+    <string name="thank_you">شكراً لك على أقتراحك</string>
+    <string name="plz_fill_feedback">الرجاء كتابة الاقتراح أولاً</string>
+    <string name="plz_what_is_prp">الرجاء التبليغ عن مشكلتك مع مزود الخدمة</string>
+    <string name="pro_type">ما نوع المشكلة التي تواجهك</string>
+    <string name="pro_dis">وصف المشكلة</string>
+    <string name="thani_replay">
+        "شكراً لك , سيتم التواصل معك قريباً"
+
+    </string>
+    <string name="plz_fill_prp_des">الرجاء كتابة وصف المشكلة</string>
+    <string name="plz_fill_prp_phone">الرجاء كتابة رقم هاتفك لنتمكن من التواصل معك</string>
+    <string name="plz_fill_chose_prp">الرجاء أختيار نوع المشكلة</string>
+    <string name="error_qr">هنالك خطا في رقم الـQR</string>
+    <string name="card_num">رقم البطاقة</string>
+    <string name="s_1_title">مجموعة متنوعة من المرافق الصحية</string>
+    <string name="s_1_con">يتم توفير الوصول إلى مجموعة واسعة من المرافق الصحية</string>
+    <string name="s_2_title">فحوصات الرعاية الصحية</string>
+    <string name="s_2_con">تذكير بالفحوصات الصحية علي فترات منتظمة</string>
+    <string name="s_3_title">الشبكة الطبية</string>
+    <string name="s_3_con">البحث عن شركائنا بالداخل والخارج بكل سهولة ويسرٍ</string>
+    <string name="s_4_title">رمز الإستجابة السريع (QR)</string>
+    <string name="s_4_con">بطاقة ميديكيت بها رمز QR فريد من نوعه</string>
+    <string name="s_5_title">السجلات الصحية الإلكترونية</string>
+    <string name="s_5_con">عضويتك تتيح لك الوصول لملفك الصحي إلكترونيآ</string>
+    <string name="s_6_title">عضويتك تتيح لك الوصول لملفك الصحي إلكترونيآ</string>
+    <string name="s_6_con">تخفيضات وعروض حصرية في الخدمات الصحية</string>
+    <string name="s_7_title">الوصول بنقرة واحدة</string>
+    <string name="s_7_con">في حالات الطوارئ</string>
+    <string name="s_final_con">أنت على بعد نقرة واحدة من الوصول إلى خدمات الرعاية الصحية الشاملة</string>
+    <string name="my_qr_code">كود الـQR الخاص بي</string>
+    <string name="hide">إخفاء</string>
+    <string name="no_appointment">ليس لديك أي مواعيد طبية</string>
+    <string name="app_t_2">قم بحجز موعد مع طبيب</string>
+    <string name="book_now">أحجز الآن</string>
+    <string name="alfosat_altbia">الفحوصات الطبية</string>
+    <string name="alfosat_count">عدد الفحوصات</string>
+    <string name="alamaliat_aljrahia">العمليات الجراحية</string>
+    <string name="alamaliat_aljrahia_count">عدد العمليات الجراحية</string>
+
+    <string name="alamrad__almzmna">الأمراض المزمنة</string>
+    <string name="alhasisiat">الحساسيات</string>
+    <string name="drugs">الأدوية</string>
+    <string name="drugs_count">عدد الادوية</string>
+
+    <string name="height">الطول (سم)</string>
+    <string name="width">الوزن (كغم)</string>
+    <string name="blod_type">فصيلة الدم</string>
+    <string name="known">"غير مدخل "</string>
+    <string name="smoking">التدخين</string>
+    <string name="sotion_state">الحالة الاجتماعية</string>
+    <string name="drinking">شرب الكحول</string>
+    <string name="stat_single">أعزب</string>
+    <string name="stat_marid">متزوج</string>
+    <string name="stat_devorc">مطلق</string>
+    <string name="stat_wi">أرمل</string>
+    <string name="no">لا</string>
+    <string name="ok_ok">نعم</string>
+    <string name="no_medica_ch">"لا توجد فحوصات طبية "</string>
+    <string name="chk_t_2">أضف جميع الفحوصات الطبية ليتمكن الأطباء من مساعدتك</string>
+    <string name="add_chack">إضافة فحص طبي</string>
+    <string name="add_app">إضافة فحص طبي</string>
+    <string name="chk_name">أسم الفحص</string>
+    <string name="chk_loca_name">أسم المركز</string>
+    <string name="chk_res">نتيجة الفحص</string>
+    <string name="add_secc">تمت عملية الأضافة بنجاح</string>
+    <string name="no_serg_ch">لا توجد أي عمليات جراحية</string>
+    <string name="serg_t_2">الرجاء أضافة أي عمليات جراحية قمت بها</string>
+    <string name="add_sergeon">"إضافة عملية "</string>
+    <string name="doc_name">اسم الطبيب</string>
+    <string name="sergeon_name">اسم العملية</string>
+    <string name="no_amrad">لم يتم إدخال أي أمراض مزمنة</string>
+    <string name="amrad_t_2">الرجاء إضافة الأمراض المزمنة لنتمكن من سماعدتك بأفضل شكل ممكن</string>
+    <string name="you_dont_have_whatsaap">الرجاء تثبيت تطبيق واتساب للمتابعة</string>
+    <string name="you_dont_have_viber">الرجاء تثبيت تطبيق الفايبر قبل المتابعة</string>
+    <string name="pers_rq_txt">الرجاء منح التطبيق صلاحيات فتح الكاميرا</string>
+    <string name="mrd_name">أسم المرض</string>
+    <string name="note">ملاحظات إضافية ( ليست مطلوبة )</string>
+    <string name="add_mzmn">إضافة مرض مزمن</string>
+    <string name="logout_sec">تم تسجيل الخروج بنجاح</string>
+    <string name="are_you_suer">هل تريد أغلاق التطبيق</string>
+    <string name="you_hope_the_bast_fo_you">شركة ميديكيت تتمنى لك الصحة والعافية</string>
+    <string name="no_hasiat">لم يتم إضافة حساسيات</string>
+    <string name="hasisiat_t_2">أدخل اسم الحساسية والمعلومات التي تهم الطبيب لمساعدتك</string>
+    <string name="add_hasisa">إضافة حساسية</string>
+    <string name="no_drugs_ch">لا يوجد أي أدوية</string>
+    <string name="drugs_t_2">الرجاء إدخال جميع الأدوية التي تستعملها حالياً</string>
+    <string name="add_drug">إضافة دواء</string>
+    <string name="drug_name">أسم الدواء</string>
+    <string name="drug_count">الجرعة اليومية</string>
+    <string name="hassi_name">أسم الحساسية</string>
+    <string name="plz_what_is_prp_2">الرجاء التبليغ عن أي خطأ أو مشكلة تصادفك في التطبيق</string>
+    <string name="change_user_data">تعديل بياناتي الشخصية</string>
+    <string name="action_settings_adv">الأعدادات المتقدمة</string>
+    <string name="login_and_security">الأمان وتسجيل الدخول</string>
+    <string name="pass_req">المطالبة بكلمة المرور عند فتح التطبيق</string>
+    <string name="ch_from_galry">أختيار صورة من المعرض</string>
+    <string name="captcher">ألتقاط صورة</string>
+    <string name="drugs_for_mam">أدوية الأمراض المزمنة</string>
+    <string name="you_are_ofline">انت غير متصل بالانترنت , قد يكون هنالك عروض جديدة</string>
+    <string name="service_price">"سعر الخدمة : "</string>
+    <string name="not_notica">عذراً , ليس لديك أشعارات جديدة</string>
+    <string name="you_are_ofline_not">الرجاء الاتصال بالانترنت لتحديث الأشعارات</string>
+    <string name="order_by_most_exp">الأعلى سعراً أولا</string>
+    <string name="order_by_hieghts_rate">الأفضل تقييماً أولا</string>
+    <string name="order_by_lowest_price">الأقل سعراً أولا</string>
+    <string name="order_by_lowest_rate">الأقل تقييماً أولاً</string>
+    <string name="order">الترتيب</string>
+    <string name="you_are_ofline_network">الرجاء الاتصال بالانترنت لتحديث البيانات</string>
+    <string name="ser_airplane">حجز تذاكر طيران</string>
+    <string name="ser_hosels">فنادق</string>
+    <string name="her_hos_app">شقق فندقية</string>
+    <string name="ser_dig_txt">"الرجاء التواصل معنا للقيام بعملية الحجز  "</string>
+    <string name="go_change_country">يمكنك تغيير الدولة من الاعدادت</string>
+    <string name="main_servics">الخدمات المساندة</string>
+    <string name="view_climes_det">عرض تفاصيل المطالبة</string>
+    <string name="service_name">أسم الخدمة :</string>
+    <string name="dental">الاسنان</string>
+    <string name="main_cm_num">"رقم المطالبة : "</string>
+    <string name="main_cm_price">اجمالي قيمة المطالبة :</string>
+    <string name="no_cliams_in_hos">ليس لديك أي مطالبات في المصحات</string>
+    <string name="no_cliams_in_phar">لا يوجد لديك مطالبات في الصيدليات</string>
+    <string name="no_cliams_in_den">ليس لديك أي مطالبات الاسنان</string>
+    <string name="climes_det">تفاصيل المطالبة</string>
+    <string name="clim_ser">الخدمات</string>
+    <string name="back_to_claims">الرجوع للمطالبات</string>
+    <string name="drag_jor3a">عرض تفاصيل الجرعة</string>
+    <string name="drag_jor3a_hide">إخفاء تفاصيل الجرعة</string>
+    <string name="day_num">عدد الأيام :</string>
+    <string name="days_1">يوم</string>
+    <string name="days_2"> بعد يومين</string>
+    <string name="days_3">بعد ثلاثة أيام</string>
+    <string name="days_4">بعد أربعة أيام</string>
+    <string name="days_5">بعد خمسة أيام</string>
+    <string name="days_6">بعد ستة أيام</string>
+    <string name="days_7">بعد كل سبعة أيام</string>
+    <string name="drugs_al3dd">"العدد : "</string>
+    <string name="drugs_b3d_kl">يومياً</string>
+    <string name="hc_xray">الاشعة والأجهزة التشخيصية</string>
+    <string name="climes_hos">أبحث بأسم المصحة أو رقم المطالبة</string>
+    <string name="climes_phar">أبحث بأسم الصيدلية أو برقم المطالبة</string>
+    <string name="climes_dent">أبحث بأسم عيادة الأسنان أو رقم المطالبة</string>
+    <string name="new_noti">جديد</string>
+    <string name="plz_shose_country_first">الرجاء أختيار الدولة  أولاً</string>
+    <string name="county_franc">فرنسا</string>
+    <string name="coming_soon">قريباً</string>
+    <string-array name="man_wem">
+        <item>ذكر</item>
+        <item>أنثى</item>
+    </string-array>
+    <string name="os_top_txt">
+        "مستقبل الرعاية الصحية"
+    </string>
+    <string name="call_perm">الرجاء الموافقة على صلاحيات الاتصال</string>
+    <string name="plz_chose_city_first">الرجاء أختيار المدينة أولاً</string>
+    <string name="login_not1">لأي أستفسار نأمل منكم
+    </string>
+    <string name="call_us">الأتصال بنا</string>
+    <string name="noti_tab_bail">الفواتير</string>
+    <string name="view_bial">عرض تفاصيل الفاتورة</string>
+    <string name="total_bail">إجمالي قيمة الفاتورة : </string>
+    <string name="new_bill_from">"فاتورة جديدة من "</string>
+    <string name="bail_ditl">تفاصيل الفاتورة</string>
+    <string name="bail_payed_by_comp">قيمة التغطية من الشركة :</string>
+    <string name="bail_payed_by_you">قيمة التغطية من المستفيد :</string>
+    <string name="bail_total_value">إجمالي القيمة :</string>
+    <string name="bail_bot_total_you">"إجمالي قيمة التغطية من المستفيد : "</string>
+    <string name="bail_bot_total_comp">"إجمالي قيمة التغطية من الشركة : "</string>
+    <string name="bail_bot_total">إجمالي قيمة الفاتورة : </string>
+    <string name="bonode">البنود</string>
+    <string name="plz_chose_spha_first">الرجاء أختيار تخصص الطبيب المطلوب</string>
+    <string name="ask_d_rate">التقييم</string>
+    <string name="ask_d_exp">سنوات الخبرة</string>
+    <string name="ask_d_price">قيمة الأستشارة</string>
+    <string name="ask_d_ask">أرسل الأستشارة</string>
+    <string name="ask_d_ask_hint">الأستشارة</string>
+    <string name="ask_d_add_doc">إضافة صورة أو مستند</string>
+    <string name="rem_me">حفظ كلمة المرور</string>
+    <string name="eemp_dig">" طلب خدمة اسعاف"</string>
+    <string name="hint_ask_doc_normal">" أكتب أستشارتك"</string>
+    <string name="one_day">يوم واحد فقط</string>
+    <string name="two_days">يومان فقط</string>
+    <string name="days">أيام</string>
+    <string name="day">يوم</string>
+    <string name="p_name">"اسم المستفيد : "</string>
+    <string name="p_card_state">"حالة البطاقة : "</string>
+    <string name="p_withdraw_amount">"قيمة سقف البطاقة : "</string>
+    <string name="card_state_disable">غير مفعلة</string>
+    <string name="card_state_enable">مفعلة</string>
+    <string name="card_state_dispanded">متوقفة</string>
+    <string name="card_state_discorapted">تالفة</string>
+    <string name="chat_hint">أكتب هنا</string>
+    <string name="dig_from">من</string>
+    <string name="dig_date">تاريخ الإرسال</string>
+    <string name="copy_text">نسخ النص</string>
+    <string name="medicate">شركة ميديكيت</string>
+    <string name="you">أنت</string>
+    <string name="copy_text_secc">تم نسخ النص بنجاح</string>
+    <string name="user_name">أسم المستخدم</string>
+    <string name="plz_fill_data">الرجاء التأكد من كتابة البيانات</string>
+    <string name="you_are_not_in">عذراً أنت غير مشترك في بطاقة MyMedicate</string>
+    <string name="card_intro">
+           تعد شركة Medicate من الشركات التي تقوم بإدارة النفقات الصحية وتهتم بتقديم رعاية صحية متميزة , وتوفر بطاقة إلكترونية خاصة يطلق عليها بطاقة MyMedicate للرعاية الطبية والصحية لتناسب كافة الأحتياجات والميزانيات الخاصة بالأفراد، وتسعى الشركة دائماً إلى تقديم المجهودات الإيجابية لمساعدة الأفراد بالأحساس بالأمان والأطمئنان على صحتهم وأسلوب حياتهم وتقدم الشركة ذلك من خلال عدد م الشركات والجهات الطبية والصحية المختلفة .
+          بطاقة MyMedicate تناسب نمط الحياة وتضيف إليها خطط متكاملة عن الرعاية الصحية وخدمات كبرى تهدف إلى تنمية المتطلبات الخاصة بالأفراد للحفاظ على صحة الأفراد ومساعدتهم على تحقيق أفضل أسلوب للحياة في جو صحي .
+          وتحوي بداخلها الكثير من مزودي الخدمة الطبية الذين يزيدون باستمرار في شبكة Medicate الطبية، وتتميز شبكة Medicate بأنها تلائم أختيارات وتنوع الأفراد عند مزودي الخدمة الذين يتعامل معها كل المواطنين والمقيمين في ليبيا كالصيدليات والمصحات و معامل التحاليل ومراكز الأشعة و مراكز الأستجمام ومراكز العناية باللياقة البدنية .
+           أشترك معنا اليوم وغير نمط حياتك الصحية للأفضل.
+    </string>
+    <string name="no_new_update">لديك أحدث أصدار</string>
+    <string name="ther_is_new_update">هنالك أصدار جديد متوفر</string>
+    <string name="update">تحديث التطبيق</string>
+    <string name="cur_version">أصدار التطبيق الحالي</string>
+    <string name="chip_quick_anser">السرعة في الرد</string>
+    <string name="chip_free_service">خدمة مجانية</string>
+    <string name="medicate_doc">طبيب ميديكيت</string>
+    <string name="about_medicate">
+        نحن شركة إدارة نفقات ورعاية صحية نقدم لك عضوية التوفير الطبية والصحية التي تناسب احتياجاتك وميزانيتك كما تكرس الشركة مجهوداتها لمساعدتك على أن يكون لديك الشعور الأمن تجاه صحتك، وأسلوب حياتك , نحن نحقق ذلك من خلال مجموعة واسعة أكثر من مجرد شركة رعاية صحية ولكنها نمط حياة بأكملها تقدم لك بطاقة رعاية صحية التي تناسب احتياجاتك وميزانيتك , نحن نحقق ذلك من خلال مجموعة واسعة من خطط متكاملة عن الرعاية الصحية وخدمات كثيرة أثبتت أنها برامج صحية جيدة و هادفة لمتطلبات عملائنا الفريدة في ميديكيت ، نحن نفهم أن كل شخص فريد من نوعه، وكذلك صحتهم، نرى كل شخص يحدد نمط حياة صحي على طريقته. و هدفنا هو أن نكون جزءا في هذه العملية، ومساعدتهم على تحقيق أفضل أسلوب للحياة في جو صحي. ميديكيت واحدة من أكبر شركات إدارة النفقات والخدمات والرعاية الطبية في ليبيا والوطن العربي و الأفريقي كما تتضمن الكثير من الاماكن الطبيه المقدمه للخدمة كما أنها أيضاً في زيادة مستمرة, دون أي شبكة طبية أخرى تتميز شبكة ميديكيت الطبية بأنها تلائم اختياراتك من الأماكن التى عادة ما يتعامل معها كل فرد مثل الصيدليات – المصحات - العيادات بأنواعها – مراكز الفحص الطبي- مراكز علاج العيون – مراكز العلاج الطبيعى – معامل التحاليل و مراكز الأشعة – مراكز الاستجمام SPA – مراكز اللياقة البدنية GYM – مراكز التجميل و محلات بيع النظارات الشمسية و الطبية وغيرها الكثير هذا بالإضافة إلى إمكانية إضافة أماكن جديدة بحسب اختيارك عن طريق إعلام خدمة العملاء و سوف نتوجه للتعاقد معها على الفور و بهذا تكون شبكتنا الطبية بحسب اختيارات عملائنا. و لإننا نهتم دائماً بخدمة عملائنا فإننا نحرص دائماً على التواصل معهم لقياس مدى رضاءهم عن الخدمة و استقبال الاقتراحات و دراستها بعناية, كما أننا نقوم بإبلاغ عملائنا بشكل دوري بالإضافات الجديدة فى الشبكة الطبية عن طريق أشعارات التطبيق ورسائل SMS وعن طريق رسائل البريد الإلكتروني .
+    </string>
+    <string name="about_comp_name">أسم الشركة</string>
+    <string name="about_comp_about">من نحن</string>
+    <string name="about_comp_about_anser">نحن شركة إدارة نفقات ورعاية صحية نقدم لك عضوية التوفير الطبية والصحية التي تناسب احتياجاتك وميزانيتك كما تكرس الشركة مجهوداتها لمساعدتك على أن يكون لديك الشعور الأمن تجاه صحتك، وأسلوب حياتك , نحن نحقق ذلك من خلال مجموعة واسعة أكثر من مجرد شركة رعاية صحية ولكنها نمط حياة بأكملها تقدم لك بطاقة رعاية صحية التي تناسب احتياجاتك وميزانيتك , نحن نحقق ذلك من خلال مجموعة واسعة من خطط متكاملة عن الرعاية الصحية وخدمات كثيرة أثبتت أنها برامج صحية جيدة و هادفة لمتطلبات عملائنا الفريدة في ميديكيت ، نحن نفهم أن كل شخص فريد من نوعه، وكذلك صحتهم، نرى كل شخص يحدد نمط حياة صحي على طريقته. و هدفنا هو أن نكون جزءا في هذه العملية، ومساعدتهم على تحقيق أفضل أسلوب للحياة في جو صحي. ميديكيت واحدة من أكبر شركات إدارة النفقات والخدمات والرعاية الطبية في ليبيا والوطن العربي و الأفريقي كما تتضمن الكثير من الاماكن الطبيه المقدمه للخدمة كما أنها أيضاً في زيادة مستمرة,</string>
+    <string name="about_comp_loca">المقر الرئيسي للشركة</string>
+    <string name="about_comp_loca_anser">"ليبيا , طرابلس , غوط الشعال "</string>
+    <string name="about_web_sites">موقعنا على الانترنت</string>
+    <string name="about_social_media">صفحاتنا على مواقع التواصل الإجاتماعي</string>
+    <string name="facebook">الفيسبوك</string>
+    <string name="linkedin">لينكدإن</string>
+    <string name="about_email">البريد الإلكتروني</string>
+    <string name="copy_email_secc">تم نسخ البريد الإلكتروني</string>
+    <string name="email_choser">تواصل معنا عبر البريد الإلكتروني</string>
+    <string name="wil_be_av_soon">هذه الخدمة ستكون متوفرة قريباً</string>
+    <string name="about_update">التطبيق بأحدث إصدار ,\n سيتم إعلامك عند وجود تحديث جديد</string>
+    <string name="no_offers">عذراً , لا توجد أي عروض جديدة</string>
+    <string name="download_medicate_app">انا أنصحك بتحميل تطبيق MyMedicate</string>
+    <string name="about_privace">سياسة الخصوصية</string>
+    <string name="ask_adv">أطباء أستشاريين وأخصائيين من جميع دول العالم</string>
+    <string name="ask_normal">طبيب عام توفره لك شركة ميديكت</string>
+    <string name="doc_main_adv">طبيب متخصص</string>
+    <string name="ask_doc_norma">طبيب ميديكيت</string>
+    <string name="plz_wait">الرجاء الأنتظار قليلاً</string>
+    <string name="county_canada">كندا</string>
+    <string name="county_amrecia">أمريكيا</string>
+    <string name="medical_check_kshofat">الكشوفات</string>
+    <string name="medical_check_glasses">النظارات الطبية</string>
+    <string name="medical_check_vesical">العلاج الطبيعي</string>
+    <string name="medical_check_other">أخرى</string>
+    <string name="dep_email">"عذراً , هذا البريد الإلكتروني موجود مسبقاً "</string>
+    <string name="dep_nn">عذراً , الرقم الوطني موجود مسبقاً الرجاء التأكد منه وإعادة المحاولة</string>
+    <string name="plz_enter_city">يرجي أختيار المدينة</string>
+    <string name="plz_enter_country">يرجي أختيار الدولة</string>
+    <string name="plz_enter_email">يرجي ادخال البريد الإلكتروني</string>
+    <string name="plz_enter_ssn">يرجي ادخال الرقم الوطني</string>
+    <string name="plzenter_date">الرجاء إدخال بيانات تاريخ الميلاد</string>
+    <string name="plz__enter_sex">الرجاء أختيار الجنس</string>
+    <string name="plz_enter_name">الرجاء التأكد من كتابة الأسم</string>
+    <string name="plz_enter_address">الرجاء كتابة العنوان</string>
+    <string name="erroe_in_serv">حدثت مشكلة في الأتصال بالخادم يرجى إعادة المحاولة لاحقاًً</string>
+    <string name="no_files">لا توجد ملفات طبية</string>
+    <string name="add_medical_file">إضافة ملف</string>
+    <string name="medical_check_thalel">التحاليل والعينات الطبية</string>
+    <string name="no_data">لا توجد بيانات</string>
+    <string name="plz_enter_phone">يرجي ادخال رقم الهاتف</string>
+    <string name="her_trav">تأمين المسافرين</string>
+    <string name="dental_clinics">عيادات الاسنان</string>
+    <string name="clinic_eua">المصحات الإيوائية</string>
+    <string name="clinics_non_eua">المصحات الغير إيوائية</string>
+    <string name="filter">الفلترة</string>
+    <string name="mad_air_force">جهاز الأسعاف الطائر الليبي</string>
+    <string name="sm3yat">مراكز السمعيات والبصريات</string>
+    <string name="save">حفظ</string>
+    <string name="not_avitable">غير متوفر حالياً</string>
+    <string name="login_type_asr">صندوق أسر الشهداء / جنزور</string>
+    <string name="login_type_mshrobat">شركة أفريقيا لتعبئة المشروبات</string>
+    <string name="login_type_briga">صندوق البريقة للتأمين الصحي</string>
+    <string name="show_loca_on_map">عرض الموقع على الخريطة</string>
+    <string name="there_is_new_chat_meg">هنالك رسائل جديدة مستلمة</string>
+    <string name="chose_file_to_upload">الرجاء أختيار الصورة</string>
+    <string name="uploading">جاري رفع الصورة </string>
+    <string name="plz_perm_read">الرجاء السماح للتطبيق بقراءة الملفات</string>
+    <string name="free_ask_doc">أستشارة فورية مجانية</string>
+    <string name="docment_type">نوع المستند</string>
+    <string name="plz_shose_docment_type">الرجاء أختيار نوع المستند</string>
+    <string name="docment_name">أسم الملف</string>
+    <string name="plz_write_file_name">الرجاء كتابة اسم الملف</string>
+    <string name="plz_shose_pic">الرجاء أختيار الملف أولاً</string>
+    <string name="open_docment">عرض</string>
+    <string name="download">تحميل</string>
+    <string name="are_you_suer_delete_md_file">هل تريد حذف هذا الملف من سجلاتك ؟</string>
+    <string name="medical_check_eya">الإيواء والاعاشة</string>
+    <string name="medical_check_general">الخدمات الطبية العامة</string>
+    <string name="alkhadmat_altbya">الخدمات الطبية</string>
+    <string name="alkhadmat_altbya_count">عدد الخدمات الطبية</string>
+
+    <string name="medical_check_tagmel">خدمات التجميل</string>
+    <string name="medical_check_dental">خدمات الاسنان</string>
+    <string name="medical_check_alsam3">السماعات الطبية</string>
+    <string name="medical_check_drugs_awram">أدوية الأورام</string>
+    <string name="medical_check_drugs_other">الأدوية والمستلزمات الطبية</string>
+    <string name="sp_103">جراحة العظام</string>
+    <string name="sp_104">الأنف والأذن والحنجرة</string>
+    <string name="sp_105">جراحة الأعصاب</string>
+    <string name="sp_106">جراحة الوجه والفكين</string>
+    <string name="mon">الاثنين</string>
+    <string name="tue">الثلاثاء</string>
+    <string name="wed">الاربعاء</string>
+    <string name="thu">الخميس</string>
+    <string name="fir">الجمعة</string>
+    <string name="sat">السبت</string>
+    <string name="sun">الاحد</string>
+    <string name="waiting_time">فترة الأنتظار</string>
+    <string name="magaster">ماجستير</string>
+    <string name="doctor_degree">دكتوراه</string>
+    <string name="b_degree">أخصائي</string>
+    <string name="serg_general">جراحة عامة</string>
+    <string name="view_resualt">عرض المستندات</string>
+    <string name="noDocData">عذراً , لا توجد بيانات حالياً</string>
+    <string name="doc_num">"المستند رقم "</string>
+    <string name="cardname_error">الرجاء التأكد من رقم البطاقة وإعادة المحاولة</string>
+    <string name="pass_is_empty">الرجاء كتابة كلمة المرور</string>
+    <string name="error_on_downlad">لم يتم تحميل الملف بنجاح</string>
+    <string name="downlad_file_success">تم تحميل الملف بنجاح</string>
+    <string name="plz_perm_save">الرجاء السماح للتطبيق بحفظ الملفات</string>
+    <string name="downloading">جاري التحميل....</string>
+    <string name="doctor_md">دكتور في الطب</string>
+    <string name="doctor_bsc">بكالوريس</string>
+    <string name="doctor_msc">ماجستير</string>
+    <string name="doctor_psyd">دكتوراه في علم النفس</string>
+    <string name="doctor_do">دكتور</string>
+    <string name="doctor_mbbs">بكالوريس طب وجراحة</string>
+    <string name="doctor_dmd">بكالوريس طب الاسنان</string>
+    <string name="doctor_dds">دكتور جراحه الاسنان</string>
+    <string name="pharmd">دكتوراه في الصيدلة</string>
+    <string name="simale_from">من الساعة</string>
+    <string name="simale_to">إلى الساعة</string>
+    <string name="bok_d_price">"قيمة الحجز : "</string>
+    <string name="saytm_khasm_alkema">سيتم خصم قيمة الحجز</string>
+    <string name="plz_enter_data">الرجاء إدخال البيانات</string>
+    <string name="e_mail__not_req">البريد الإلكتروني ( ليس إجباري )</string>
+    <string name="check_from_phone">الرجاء التأكد من كتابة رقم الهاتف بشكل صحيح</string>
+    <string name="make_appointment_success">"تم حجز الموعد بنجاح في تاريخ"</string>
+    <string name="not_enouht_mony">"عذراً , القيمة الموجودة في حسابك غير كافية للحجز وهي "</string>
+    <string name="social_state_single_man">أعزب</string>
+    <string name="social_state_marid_man">متزوج</string>
+    <string name="social_state_armal_man">أرمل</string>
+    <string name="social_state_single_weman">غير متزوجة</string>
+    <string name="social_state_marid_weman">متزوجة</string>
+    <string name="social_state_armal_weman">أرملة</string>
+    <string name="av_clicnic">الأماكن المتوفرة فيها</string>
+
+</resources>

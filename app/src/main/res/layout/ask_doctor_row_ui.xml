@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/from_comp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ask_doc_comp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/chat_comp_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="16dp"
+                android:paddingTop="16dp"
+                android:paddingEnd="16dp"
+                android:text="انا مريض اموري تمام جدا  انا مريض اموري تمام جدا  انا مريض اموري تمام جدا d"
+                android:textAlignment="viewStart"
+                android:textColor="@color/main"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal"
+                android:paddingTop="4dp"
+                android:paddingBottom="2dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/chat_comp_txt">
+
+                <TextView
+                    android:id="@+id/chat_medicate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:layout_weight="1"
+                    android:paddingEnd="16dp"
+                    android:textAlignment="viewStart" />
+
+                <TextView
+                    android:id="@+id/chat_comp_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="24dp"
+                    android:paddingStart="16dp"
+                    android:text="12:12"
+                    android:textAlignment="viewEnd" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/from_you"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ask_doc_you"
+            android:gravity=""
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/chat_you_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="16dp"
+                android:paddingTop="16dp"
+                android:paddingEnd="16dp"
+                android:text="انا مريض اموري تمام جدا شن حالك  انا مريض اموري تمام جدا شن حالك انا مريض اموري تمام جدا شن حالك انا مريض اموري تمام جدا شن حالك "
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/chat_you_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="32dp"
+                android:paddingStart="24dp"
+                android:paddingEnd="8dp"
+                android:text="15:10"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/material_on_background_emphasis_medium"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/from_you_media"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity=""
+            android:minWidth="200dp"
+            android:orientation="vertical">
+<!--            android:background="@drawable/ask_doc_you"-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="2dp"
+            android:layout_height="wrap_content">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/chat_you_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxHeight="100dp"
+                android:scaleType="center"
+                android:src="@drawable/chat_loading" />
+        </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/chat_you_txt_media"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="16dp"
+                android:paddingTop="16dp"
+                android:paddingEnd="16dp"
+                android:visibility="gone"
+                android:textAlignment="viewStart"
+                android:textColor="@color/main"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/chat_you_date_media"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="32dp"
+                android:paddingStart="24dp"
+                android:paddingEnd="8dp"
+                android:text="15:10"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/material_on_background_emphasis_medium"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
