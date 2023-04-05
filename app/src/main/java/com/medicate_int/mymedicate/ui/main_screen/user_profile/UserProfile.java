@@ -32,7 +32,7 @@ public class UserProfile extends Fragment {
     View view;
     ImageView qr_img;
     boolean internet;
-
+// hello
     ConstraintLayout qr_lay;
 
     @Override
